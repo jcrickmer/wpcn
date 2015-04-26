@@ -1,0 +1,11 @@
+User-agent: *
+Disallow: /wp-admin/
+Disallow: /cards/_winbattle
+Disallow: /cards/_nameauto
+Disallow: /copyrights
+Disallow: /terms-of-use
+Disallow: /privacy-policy
+Disallow: /dcma-requests
+Disallow: /business-inquiries
+
+Sitemap: http://card.ninja/sitemap.xml
