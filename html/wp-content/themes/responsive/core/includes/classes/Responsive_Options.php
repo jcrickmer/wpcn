@@ -89,7 +89,7 @@ Class Responsive_Options {
 	protected function sub_heading( $args ) {
 
 		// If width is not set or it's not set to full then go ahead and create default layout
-		if( !isset( $args['width'] ) || $args['width'] != 'full' ) {
+		if ( !isset( $args['width'] ) || $args['width'] != 'full' ) {
 			echo '<div class="grid col-300">';
 
 			echo $args['title'];
@@ -257,8 +257,7 @@ Class Responsive_Options {
 			'sidebar-content-page'      => __( 'Sidebar/Content', 'responsive' ),
 			'content-sidebar-half-page' => __( 'Content/Sidebar Half Page', 'responsive' ),
 			'sidebar-content-half-page' => __( 'Sidebar/Content Half Page', 'responsive' ),
-			'full-width-page'           => __( 'Full Width Page (no sidebar)', 'responsive' ),
-			'disclaimer-page'           => __( 'Disclaimer Page (no sidebar)', 'responsive' )
+			'full-width-page'           => __( 'Full Width Page (no sidebar)', 'responsive' )
 		);
 
 		return apply_filters( 'responsive_valid_layouts', $layouts );
